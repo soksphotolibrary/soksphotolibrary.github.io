@@ -1,0 +1,11 @@
+img {
+    max-width: 90%;
+    padding: 5px;
+    /* border: 1px solid blueviolet; */
+    display: block;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
