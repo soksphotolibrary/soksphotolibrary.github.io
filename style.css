@@ -1,21 +1,13 @@
 img {
     display: block;
     max-width: 90%;
+    max-height: 90vh;
     padding-bottom: 5%;
-    /* border: 1px solid blueviolet; */
     margin: auto;
 }
 
 p {
-    /* padding-top: 5%;
-    padding-bottom: 5%; */
     font-family: Helvetica, sans-serif;
     white-space: pre-wrap;
     text-align: center;
-    /* background-color: beige;
-    max-width: 90%;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px; */
-
 }
