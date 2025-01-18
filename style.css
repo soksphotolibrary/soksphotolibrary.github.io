@@ -2,9 +2,9 @@ img {
     display: block;
     max-width: 90%;
     max-height: 90vh;
-    padding-bottom: 5%;
+    margin-bottom: 5%;
     margin: auto;
-    background-color: black;
+    background-color: #6d92a7;
 }
 
 p {
