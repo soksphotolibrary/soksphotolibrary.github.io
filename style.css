@@ -1,0 +1,152 @@
+
+:root { 
+    scroll-behavior: smooth; 
+}
+
+img, video {
+    display: block;
+    max-width: 90%;
+    max-height: 80vh;
+    margin: auto;
+    margin-bottom: 5%;
+    background-color: #6d92a7;
+}
+
+.last-image {
+    margin-bottom: 0;
+}
+
+.clickable:hover {
+    opacity: 70%;
+}
+
+#nav-bar {
+    position: sticky;
+    margin-top: 5px;
+    height: 55px;
+    top: 0;
+    padding: 3px;
+    padding-bottom: 35px;
+    overflow: hiddden;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 2;
+}
+
+#nav-bar:hover {
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+#folder-one {
+    border-top: 1px solid black;
+}
+
+#folder-one {
+    color: red;
+}
+
+#f-one {
+    color: red;
+}
+
+#folder-two, #f-two {
+    color: blue;
+}
+
+#folder-three, #f-three {
+    color: green;
+}
+
+#folder-four, #f-four {
+    color: orange;
+}
+
+
+
+img:hover, video:hover {
+    outline: 1px dashed black;
+}
+
+.f-one-frame:hover {
+    outline-color: red;
+}
+.f-two-frame:hover {
+    outline-color: blue;
+}
+.f-three-frame:hover {
+    outline-color: green;
+}
+.f-four-frame:hover {
+    outline-color: orange;
+}
+
+.foot-notes {
+    margin: 0;
+}
+
+.head-notes {
+    margin-top: -12px;
+    font-weight: 200;
+}
+
+p, h6 {
+    /* font-family: Helvetica, sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Courier Prime';
+    white-space: pre-wrap;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+p:hover, h6:hover, #f-one:hover, #f-two:hover, #f-three:hover, #f-four:hover {
+    color:#6d92a7;
+}
+
+hr {
+    border-color: #6d92a7;
+}
+
+/* FADE IN KEY FRAMES */
+@keyframes fadeIn {
+    0% { opacity: 0;}
+
+    100% { opacity: 1;}
+}
+
+.fade-in {
+    animation: fadeIn 3.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    /* background-color: rgba(255, 255, 255, 0); */
+
+}
+
+
+.rainbow-text {
+    animation: color-change 5s infinite alternate;
+}
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    25%{
+        color: blue;
+    }
+
+    50% {
+        color: green;
+    }
+
+    100% {
+        color: orange;
+    }
+}
+
+/* .grey-bg:hover {
+    background-color: red;
+} */
+
+
