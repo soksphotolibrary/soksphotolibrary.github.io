@@ -97,6 +97,10 @@ p, h6 {
     background-color: rgba(255, 255, 255, 0);
 }
 
+h6 {
+    font-weight: 200;
+}
+
 p:hover, h6:hover, #f-one:hover, #f-two:hover, #f-three:hover, #f-four:hover {
     color:#6d92a7;
 }
